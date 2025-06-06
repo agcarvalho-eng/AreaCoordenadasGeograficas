@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="definir_ponto_1">Definir Ponto 1</string>
+    <string name="ponto_1_n_o_definido">Ponto 1: Não definido</string>
+    <string name="definir_ponto_2">Definir Ponto 2</string>
+    <string name="ponto_2_n_o_definido">Ponto 2: Não definido</string>
+</resources>

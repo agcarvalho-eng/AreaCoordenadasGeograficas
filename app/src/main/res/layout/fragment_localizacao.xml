@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:padding="16dp">
+
+        <Button
+            android:id="@+id/btnSetPonto1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/definir_ponto_1" />
+
+        <TextView
+            android:id="@+id/textPonto1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/ponto_1_n_o_definido"
+            android:paddingTop="8dp"/>
+
+        <Button
+            android:id="@+id/btnSetPonto2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/definir_ponto_2"
+            android:layout_marginTop="16dp"/>
+
+        <TextView
+            android:id="@+id/textPonto2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/ponto_2_n_o_definido"
+            android:paddingTop="8dp"/>
+
+        <TextView
+            android:id="@+id/textArea"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Área: "
+            android:textSize="18sp"
+            android:paddingTop="16dp"/>
+    </LinearLayout>
+</layout>
